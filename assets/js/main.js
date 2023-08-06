@@ -58,6 +58,18 @@ $("#owl-testimonial").owlCarousel({
     animateOut: 'slideOutUp',
     animateIn: 'slideInUp'
   });
+$("").owlCarousel({
+    loop: true,
+    autoplay: true,
+    items: 1,
+    nav: false,
+    autoplay:true,
+    dots: false,
+    autoplayTimeout:1000,
+    autoplayHoverPause: true,
+    animateOut: 'slideOutUp',
+    animateIn: 'slideInUp'
+  });
 });
 
 

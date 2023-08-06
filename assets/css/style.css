@@ -552,6 +552,141 @@ li.breadcrumb-item {
 ol.breadcrumb {
     padding-top: 12px;
 }
+/* university-degree css  */
+.university-degree {
+    background: #F8F8F8;
+}
+.choose-icon h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+.degree-text-left h2{
+    font-size: 32px;
+}
+.degree-text-left p {
+    color: #777777;
+    font-size: 15px;
+}
+.degree-icon {
+    border: 2px solid #a39976;
+    border-radius: 50%;
+    box-sizing: content-box;
+    line-height: 65px;
+    text-align: center;
+    width: 65px;
+    position: relative;
+    margin: 0 auto;
+}
+.degree-icon:after {
+    content: "";
+    height: 55px;
+    left: 50%;
+    position: absolute;
+    top: calc(100% + 3px);
+    width: 1px;
+    background: url(img/degree_icon_after.png);
+}
+.degree-text-left {
+    margin-left: 50px;
+}
+.degree-text-right {
+    background: #FDF5DA;
+    padding: 60px;
+}
+.degree-text h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.degree-text span {
+    font-size: 15px;
+    color: #777777;
+}
+/* principle css */
+.principle {
+    background-color: #F8F8F8;
+}
+.principle-content {
+    background-color: #fff;
+    padding: 70px 0;
+    /* background: url(../images/bg_sing_practice.png),no-repeat,center/cover; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 17px;
+}
+.apply-now{
+    background: url(../images/bg_call_to_action.jpg) ,no-repeat,center/cover;
+    background-color: #FF3D00;
+    margin-bottom: 0px;
+}
+.applyBtn button {
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 9px 30px;
+}
+/* courses page css  */
+.section-heading button {
+    background: #FF3D00;
+    color: #fff !important;
+    border-bottom: 2px solid #B82D01;
+    padding: 10px 25px;
+    font-size: 14px;
+}
+/* contact page css  */
+.contact {
+    background: #f8f8f8;
+}
+.contact-form {
+    padding: 0 50px;
+}
+.section-heading input {
+    background: #FF3D00;
+    color: #fff !important;
+    border-bottom: 2px solid #B82D01;
+    padding: 10px 25px;
+    font-size: 14px;
+}
+/* alumni page css  */
+.alumni .card {
+    border: 11px dashed #F3F3EF;
+    padding: 11px;
+}
+
+h5.card-title {
+    font-size: 22px;
+}
+.card.alumni-card {
+    border: 1px solid #f8f8f8;
+    box-shadow: rgb(238 237 237 / 40%) -6px 6px, rgb(244 244 244 / 30%) -10px 10px, rgba(240, 46, 170, 0.2) 0px 0px, rgba(240, 46, 170, 0.1) 0px 0px, rgba(240, 46, 170, 0.05) 0px 0px;
+    margin: 25px;
+}
+p.card-text {
+    font-size: 16px;
+    color: #777777;
+}
+/* news page css  */
+.card-title h5 a {
+    font-size: 16px;
+    color: #333;
+}
+
+.card-title span {
+    font-size: 14px;
+    color: #777777;
+    text-transform: capitalize;
+}
+
+.react-content {
+    display: flex;
+}
+.react-content i {
+    color: #ff3d00;
+    margin-right: 4px;
+}
+.react-content span {
+    margin-right: 30px;
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
     .key2successBtn a {
@@ -639,6 +774,22 @@ ol.breadcrumb {
     
     li.breadcrumb-item.active {
         color: #ebe6e6;
+    }
+    .degree-text-left h2 {
+        font-size: 15px;
+    }
+    
+    .degree-text-left {
+        margin-left: 0px;
+        padding-top: 25px;
+    }
+    
+    .degree-text h3 {
+        font-size: 12px;
+    }
+    
+    .degree-text {
+        padding-top: 25px;
     }
  }
 /* Medium devices (tablets, 768px and up) */

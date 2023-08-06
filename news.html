@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build A Educampus Education University using Bootstrap 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <!-- fontawesome icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--owl carousel css link -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" /> -->
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+</head>
+<body>
+ 
+     <!-- header starts -->
+     <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+              <a class="navbar-brand text-uppercase" href="#"> Edu
+                  <img src="assets/images/icon_cap.png" alt="header icon">
+                  <span class="text-muted">campus</span>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 main-menu">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="courses.html">Courses</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Events
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Event 1</a></li>
+                      <li><a class="dropdown-item" href="#">Event 2</a></li>                     
+                      <li><a class="dropdown-item" href="#">Event 3</a></li>
+                    </ul>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link " href="news.html" >News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="alumni.html" >Alumni</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="contact.html" >Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex search">
+                  <input class="form-control " type="search" placeholder="Search" aria-label="Search"><i class="fa fa-search" aria-hidden="true"></i>
+                  
+                </form>
+              </div>
+            </div>
+          </nav>
+     </header>
+     <!-- header ends -->
+     <!-- about starts -->
+     <section id="about" class="about section-padding-top">
+         <div class="container">
+             <div class="row justify-content-center align-items-center">
+                 <div class="col-md-12 ">
+                     <div class="key2success py-4">
+                        <div class="key2success_txt">
+                            <h2 class="text-center">Latest News</h2>
+                            </div>
+                     </div>
+                     
+                 </div>
+                
+             </div>
+         </div>
+     </section>
+     <!-- about ends -->
+     <!-- breadcrumb starts -->
+     <div class="breadcrumb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="breadcrumb-left-text">
+                        <h3 class="text-white pt-2">Latest News</h3>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <nav aria-label="breadcrumb" class="breadcrumb-menu">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Latest News</li>
+                        </ol>
+                      </nav>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- breadcrumb ends -->
+     <section id="latest-post" class="latest-post section-padding-top section-padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card "  style="box-shadow: rgb(238 237 237 / 40%) -6px 6px, rgb(244 244 244 / 30%) -10px 10px, rgba(240, 46, 170, 0.2) 0px 0px, rgba(240, 46, 170, 0.1) 0px 0px, rgba(240, 46, 170, 0.05) 0px 0px;
+                margin: 25px;">
+                    <img src="assets/images/latest_news_post_1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title" style="border-bottom: 1px solid #f8f8f8;">
+                        <h5 ><a href="#">YOUR WAY IN THE WORLD TODAY TAKES EVERYTHING YOU'VE GOT</a></h5>
+                      <span><i>Posted By : Admin</i></span>
+                      </div>
+                      <p class="card-text" style="    line-height: 40px;
+                      font-size: 15px;">Buck Rogers to Earth five-hundred years later. Now were up in the big leagues getting' our turn at bat. The movie star the professor and Mary Ann here on Gilligans Isle. So get a witch's shawl on a broomstick you can crawl on. Were gonna pay a call on the Addams Family." The mate was a mighty sailin' man the Skipper brave and sure.</p>
+                      
+                      <div class="react-content">
+                        <div>
+                            <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                            <span>11 Comments</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <span>13 Likes</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            <span>19 Viewers</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="card "  style="box-shadow: rgb(238 237 237 / 40%) -6px 6px, rgb(244 244 244 / 30%) -10px 10px, rgba(240, 46, 170, 0.2) 0px 0px, rgba(240, 46, 170, 0.1) 0px 0px, rgba(240, 46, 170, 0.05) 0px 0px;
+                margin: 25px;">
+                    <img src="assets/images/latest_news_post_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title" style="border-bottom: 1px solid #f8f8f8;">
+                        <h5 ><a href="#">A SHADOWY FLIGHT INTO THE DANGEROUS WORLD OF A MAN WHO DOES NOT EXIST</a></h5>
+                      <span><i>Posted By : Admin</i></span>
+                      </div>
+                      <p class="card-text" style="    line-height: 40px;
+                      font-size: 15px;">Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now. We're gonna make our dreams come true. Just two good ol' boys Wouldn't change if they could. Fightin' the system like a true modern day Robin Hood. Doin' it our way. Nothin's gonna turn us back now. Straight ahead and on the track now. We're gonna make our dreams come true.</p>
+                      
+                      <div class="react-content">
+                        <div>
+                            <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                            <span>31 Comments</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <span>9 Likes</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            <span>20 Viewers</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="card "  style="box-shadow: rgb(238 237 237 / 40%) -6px 6px, rgb(244 244 244 / 30%) -10px 10px, rgba(240, 46, 170, 0.2) 0px 0px, rgba(240, 46, 170, 0.1) 0px 0px, rgba(240, 46, 170, 0.05) 0px 0px;
+                margin: 25px;">
+                    <img src="assets/images/latest_news_post_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title" style="border-bottom: 1px solid #f8f8f8;">
+                        <h5 ><a href="#">ITS LIKE A KIND OF TORTURE TO HAVE TO WATCH THE SHOW</a></h5>
+                      <span><i>Posted By : Admin</i></span>
+                      </div>
+                      <p class="card-text" style="    line-height: 40px;
+                      font-size: 15px;">It's time to play the music. It's time to light the lights. It's time to meet the Muppets on the Muppet Show tonight? Wouldn't you like to get away. Sometimes you want to go where everybody knows your name. And they're always glad you came. Now were up in the big leagues getting' our turn at bat. They're creepy and they're kooky mysterious and spooky.</p>
+                      
+                      <div class="react-content">
+                        <div>
+                            <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                            <span>23 Comments</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <span>61 Likes</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            <span>56 Viewers</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="card "  style="box-shadow: rgb(238 237 237 / 40%) -6px 6px, rgb(244 244 244 / 30%) -10px 10px, rgba(240, 46, 170, 0.2) 0px 0px, rgba(240, 46, 170, 0.1) 0px 0px, rgba(240, 46, 170, 0.05) 0px 0px;
+                margin: 25px;">
+                    <img src="assets/images/latest_news_post_4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title" style="border-bottom: 1px solid #f8f8f8;">
+                        <h5 ><a href="#">WE KNOW FLIPPER LIVES IN A WORLD FULL OF WONDER FLYING</a></h5>
+                      <span><i>Posted By : Admin</i></span>
+                      </div>
+                      <p class="card-text" style="    line-height: 40px;
+                      font-size: 15px;">The ship set ground on the shore of this uncharted desert isle with Gilligan the Skipper too the millionaire and his wife! Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth. The ship set ground on the shore of this uncharted desert isle with Gilligan the Skipper too the millionaire.</p>
+                      
+                      <div class="react-content">
+                        <div>
+                            <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                            <span>12 Comments</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <span>19 Likes</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            <span>23 Viewers</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     
+     <!-- footer starts -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="newslater">
+                            <form action="">
+                                <input type="email" placeholder="Email Address">
+                                <input type="submit" value="">
+                            </form>
+                            <p>To Recieve Our Updates Via E-mail</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-widgets">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="single-footer-widget">
+                                <h2 class="widget-title">About us</h2>
+                                <p>On my way to where the air is sweet. Can you tell me how to get how to get to Sesame Street! The first mate and his Skipper too will do their very best to make the others comfortable </p>
+                                <ul class="footer_social">
+                                    <li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="single-footer-widget">
+                                <h2 class="widget-title">Latest posts</h2>
+                                <ul class="latest_post">
+                                    <li>
+                                        <img src="assets/images/latest_post_1.jpg" class="img-fluid" alt="latest post img">
+                                        <div class="latest_post_txt">
+                                            <h4><a href="#">On your mark get set and go now</a></h4>
+                                            <p>April 08, 2022</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/latest_post_2.jpg" class="img-fluid" alt="latest post img">
+                                        <div class="latest_post_txt">
+                                            <h4><a href="#">This time there's no stopping us from away</a></h4>
+                                            <p>April 08, 2022</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="single-footer-widget">
+                                <h2 class="widget-title">latest tweets</h2>
+                                <ul class="latest_tweet">
+                                    <li>Educamus is one of the excellent university template <a href="#">http://educampus/universitybest/</a>
+                                        <span>1 hours ago</span>
+                                    </li>
+                                    <li>Educamus is one of the excellent university template <a href="#">http://educampus/universitybest/</a>
+                                        <span>1 hours ago</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="single-footer-widget">
+                                <h2 class="widget-title">contact info</h2>
+                                <ul class="footer_contact">
+                                    <li>09 Design Street,Downtown, Sydney, Australia</li>
+                                    <li>+01 123 456 78</li>
+                                    <li>+01 123 456 78</li>
+                                    <li>Info@educampus.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>© 2022 educampus. All rights reserved developed by <a href="#">Tanjina Akter</a></p>
+                    </div>
+                    <div class="col-sm-8">
+                        <nav class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">terms & Conditions</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- move top -->
+		<button onclick="topFunction()" id="movetop" title="Go to top">
+			<span class="fa fa-angle-up"></span>
+		</button>
+		<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function () {
+				scrollFunction()
+			};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					document.getElementById("movetop").style.display = "block";
+				} else {
+					document.getElementById("movetop").style.display = "none";
+				}
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+		</script>
+		<!-- /move top -->
+    </footer>
+    <!-- footer ends -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="assets/js/owl.carousel.min.js">owlcarousel</script>
+     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+     
+     <script src="assets/js/main.js">javascript</script>
+</body>
+</html>
