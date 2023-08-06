@@ -710,6 +710,12 @@ p.card-text {
     .search-form input[type="text"] {
         width: 100%;
     }
+    nav.breadcrumb-menu {
+        float: left;
+    }
+    li.breadcrumb-item.active {
+        color: #ebe6e6;
+    }
  }
  
  /* Small devices (landscape phones, 414px and up) */
@@ -721,6 +727,12 @@ p.card-text {
     
     .key2successBtn {
         text-align: center;
+    }
+    nav.breadcrumb-menu {
+        float: left;
+    }
+    li.breadcrumb-item.active {
+        color: #ebe6e6;
     }
  }
  /* Small devices (landscape phones, 280px and up) */
